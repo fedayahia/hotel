@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\OwnerReply;
+use App\Models\Owner_Replies;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class OwnerReplyController extends Controller
+class OwnerRepliesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -35,7 +35,7 @@ class OwnerReplyController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(OwnerReply $ownerReply)
+    public function show(Owner_Replies $owner_Replies)
     {
         //
     }
@@ -43,7 +43,7 @@ class OwnerReplyController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(OwnerReply $ownerReply)
+    public function edit(Owner_Replies $owner_Replies)
     {
         //
     }
@@ -51,7 +51,7 @@ class OwnerReplyController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, OwnerReply $ownerReply)
+    public function update(Request $request, Owner_Replies $owner_Replies)
     {
         //
     }
@@ -59,7 +59,7 @@ class OwnerReplyController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(OwnerReply $ownerReply)
+    public function destroy(Owner_Replies $owner_Replies)
     {
         //
     }
